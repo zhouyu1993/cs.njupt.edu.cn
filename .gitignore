@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Sass template
+.sass-cache/
+*.css.map
+
+.idea/cs.njupt.edu.cn.iml
+.idea/encodings.xml
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+LICENSE
+gulpfile.js
+package.json
+src/css/
+src/images/
+src/js/
+/node_modules/

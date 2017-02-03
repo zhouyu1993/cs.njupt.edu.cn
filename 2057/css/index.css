@@ -1,0 +1,435 @@
+
+/*news---start*/
+.news{
+    width: 100%;
+    min-width: 1400px;
+}
+.new-tit{
+    text-align: center;
+    position: relative;
+    margin-top: 64px;
+}
+.new-tit div{
+    position: absolute;
+    width: 414px;
+    height: 54px;
+    text-align: center;
+    background: #fff;
+    top: -28px;
+    left: 50%;
+    margin-left: -207px;
+}
+.new-tit i{
+    display: block;
+    height: 1px;
+    background: #213f99;
+}
+.box li{
+    width: 190px;
+    text-align: center;
+    margin: 106px 44px 26px;
+    float: left;
+}
+.box li a{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+}
+.box li a img {
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.box li:hover a{
+    color: #017ded;
+}
+.more{
+    width: 100px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 22px;
+    color: #213f99;
+    border: 1px solid #8495c7;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+/*notice---start*/
+.notice{
+    width: 100%;
+    min-width: 1400px;
+}
+.not-tit{
+    text-align: center;
+    position: relative;
+    margin-top: 64px;
+    height: 2px;
+    background: #106aaf;
+    margin-top: 140px;
+}
+.not-tit div{
+    position: absolute;
+    width: 130px;
+    height: 86px;
+    text-align: center;
+    background: #fff;
+    top: -72px;
+    left: 50%;
+    margin-left: -65px;
+}
+.notice ul{
+    padding: 60px 0 45px;
+}
+.notice ul li{
+    float: left;
+    width: 678px;
+    margin: 24px 5px 0;
+}
+.not-ul-le{
+    float: left;
+    width:100px;
+    height:93px;
+    overflow: hidden;
+    background: #213f99;
+    color: #fff;
+    text-align: center;
+}
+.not-ul-le span{
+    display: block;
+    font-size: 30px;
+    padding: 25px 0 12px;
+}
+.not-ul-le i{
+    display: block;
+    font-style: normal;
+    font-size: 18px;
+}
+.not-ul-ri{
+    float: left;
+    margin-left: 20px;
+}
+.notice ul li:hover .not-ul-ri a{
+    color: #017ded;
+}
+.not-ul-ri .at{
+    padding:15px 0 12px;
+    display: block;
+    width: 550px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #000000;
+}
+.not-ul-ri .ab{
+    display: block;
+    width: 550px;
+    overflow: hidden;
+    height: 48px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+/*science----start*/
+.science{
+    width: 100%;
+    min-width: 1400px;
+    height: 627px;
+    background: url(../img/scienceBg.png) center center no-repeat;
+    margin-top: 70px;
+    text-align: center;
+}
+.sci-tit{
+    display: block;
+    padding-top: 42px;
+}
+.science ul{
+    width: 1398px;
+    margin: 140px auto 0;
+}
+.science li{
+    float: left;
+    width: 465px;
+    text-align: center;
+}
+.science li a{
+    display: block;
+}
+.science li a.scia2{
+    margin-top: 30px;
+}
+
+/*lecture---start*/
+.lec-tit{
+    width: 100%;
+    min-width: 1400px;
+    background: url(../img/bianline.png) center center no-repeat;
+    text-align: center;
+    margin-top: 97px;
+}
+.lectab-con{
+    margin-top: 40px;
+}
+.lectab-con .con{
+    display: none;
+}
+.lectab-con .leca1{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.lectab-con .leca1 label{
+    font-size: 16px;
+    color: #666;
+    float: left;
+    line-height: 22px;
+}
+.lectab-con .leca1 span{
+    float: left;
+    width: 1300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #328fb1;
+    font-size: 22px;
+}
+.lectab-con .leca2{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    line-height: 34px;
+    overflow: hidden;
+    color: #666;
+}
+.lectab{
+    width: 1450px;
+    margin-top: 10px;
+}
+.lectab li{
+    float: left;
+    width: 163px;
+    margin:0 20px;
+}
+.lectab li .li-a1{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+}
+.lectab li .li-a1 img{
+    width: 100%;
+    height: 100%;
+}
+.lectab li .li-a1 i{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 160px;
+    height: 160px;
+    background: url(../img/lec-bg.png) no-repeat;
+}
+.lectab li .li-a1 i.se{
+    background: url(../img/lec-bgSe.png) no-repeat;
+}
+.lectab li .li-a2{
+    display: block;
+    margin-top: 6px;
+}
+.lectab li .li-a2 span{
+    color: #000;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+.lectab li .li-a2 label{
+    color: #666;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+.lectab li .li-a2.se span{
+    color: #328fb1;
+}
+.lectab li .li-a2.se label{
+    color: #328fb1;
+}
+/*person---start*/
+.per-tit{
+    text-align: center;
+    margin-top: 100px;
+}
+.per-tabcon{
+    min-height: 120px;
+    padding:15px 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 40px;
+}
+.per-tabcon .con{
+    display: none;
+}
+.perbg{
+    width: 100%;
+    min-width: 1400px;
+    background: url(../img/personbgs.png) no-repeat;
+    height: 290px;
+}
+.pertab div{
+    width: 1450px;
+    overflow: hidden;
+}
+.pertab a{
+    float: left;
+    width: 246px;
+    height: 284px;
+    background: url(../img/perbg.png) center center no-repeat;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+.pertab a.se{
+    background: url(../img/perbgse.png) center center no-repeat;
+}
+.pertab a i{
+    display: block;
+    width: 103px;
+    height: 85px;
+    margin: 80px auto 0;
+    background: url(../img/per1.png) center center no-repeat;
+    cursor: pointer;
+}
+.pertab a i.pera2{
+    background: url(../img/per2.png) center center no-repeat;
+}
+.pertab a i.pera3{
+    background: url(../img/per3.png) center center no-repeat;
+}
+.pertab a i.pera4{
+    background: url(../img/per4.png) center center no-repeat;
+}
+.pertab a i.pera5{
+    background: url(../img/per5.png) center center no-repeat;
+}
+.pertab a.se i{
+    background: url(../img/per1_se.png) center center no-repeat;
+}
+.pertab a.se i.pera2{
+    background: url(../img/per2_se.png) center center no-repeat;
+}
+.pertab a.se i.pera3{
+    background: url(../img/per3_se.png) center center no-repeat;
+}
+.pertab a.se i.pera4{
+    background: url(../img/per4_se.png) center center no-repeat;
+}
+.pertab a.se i.pera5{
+    background: url(../img/per5_se.png) center center no-repeat;
+}
+.pertab a span{
+    display: block;
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*student---start*/
+.student{
+    padding-bottom: 40px;
+}
+.stu-tit{
+    width: 100%;
+    min-width: 1400px;
+    background: url(../img/bianline.png) center center no-repeat;
+    text-align: center;
+    margin-top: 97px;
+    overflow: hidden;
+}
+.stu-tit div{
+    width: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.stu-tit a{
+    color: #000;
+    font-size: 16px;
+    float: left;
+    height: 68px;
+    line-height: 68px;
+}
+
+.stu-tit a img{
+    padding: 0 44px;
+}
+.stu-con{
+    padding: 30px 0;
+}
+.stu-con li{
+    float: left;
+    width: 276px;
+    height: 455px;
+    background: #233c83;
+    margin:  0 2px;
+}
+.stu-con li:hover i{
+    display: none;
+}
+.stu-t{
+    display: block;
+    height: 290px;
+    width: 100%;
+    position: relative;
+}
+.stu-t img{
+    width: 100%;
+    height: 100%;
+}
+.stu-t i{
+    width: 100%;
+    height: 100%;
+    background: url(../img/stu-i.png) repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    cursor: pointer;
+}
+.stu-b{
+    display: block;
+    padding: 0 13px;
+    height: 165px;
+}
+.stu-b a{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    padding: 25px 0 14px;
+    border-bottom: 3px solid #7b8ab5;
+}
+.stu-b p{
+    margin-top: 16px;
+}
+.stu-b p span{
+    float: left;
+    background: url(../img/stu-tim.png) no-repeat;
+    text-indent: 24px;
+    color: #609dff;
+}
+.stu-b p label{
+    float: right;
+    background: url(../img/stu-eye.png) no-repeat;
+    text-indent: 24px;
+    color: #609dff;
+}
+
+
