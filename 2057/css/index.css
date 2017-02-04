@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /*news---start*/
 .news{
     width: 100%;
@@ -87,7 +87,7 @@
     width: 678px;
     margin: 24px 5px 0;
 }
-.not-ul-le{
+.notice ul li a.not-ul-le {
     float: left;
     width:100px;
     height:93px;
@@ -96,15 +96,18 @@
     color: #fff;
     text-align: center;
 }
+.notice ul li a.not-ul-le:hover {
+    color: #fff;
+}
 .not-ul-le span{
     display: block;
     font-size: 30px;
-    padding: 25px 0 12px;
+    line-height: 50px;
 }
 .not-ul-le i{
     display: block;
-    font-style: normal;
     font-size: 18px;
+    line-height: 43px;
 }
 .not-ul-ri{
     float: left;
@@ -162,9 +165,12 @@
 }
 
 /*lecture---start*/
-.lec-tit{
+.lecture {
     width: 100%;
     min-width: 1400px;
+}
+.lec-tit{
+    width: 100%;
     background: url(../img/bianline.png) center center no-repeat;
     text-align: center;
     margin-top: 97px;
@@ -180,12 +186,13 @@
     display: block;
     overflow: hidden;
     padding-bottom: 5px;
+    line-height: 38px;
 }
 .lectab-con .leca1 label{
     font-size: 16px;
     color: #666;
     float: left;
-    line-height: 22px;
+    line-height: 38px;
 }
 .lectab-con .leca1 span{
     float: left;
@@ -227,6 +234,8 @@
 .lectab li .li-a1 img{
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 .lectab li .li-a1 i{
     position: absolute;
@@ -264,7 +273,12 @@
     color: #328fb1;
 }
 /*person---start*/
+.person {
+    width: 100%;
+    min-width: 1400px;
+}
 .per-tit{
+    width: 100%;
     text-align: center;
     margin-top: 100px;
 }
@@ -345,10 +359,11 @@
 /*student---start*/
 .student{
     padding-bottom: 40px;
+    width: 100%;
+    min-width: 1400px;
 }
 .stu-tit{
     width: 100%;
-    min-width: 1400px;
     background: url(../img/bianline.png) center center no-repeat;
     text-align: center;
     margin-top: 97px;
@@ -432,4 +447,66 @@
     color: #609dff;
 }
 
-
+.content {
+    width: 1200px;
+    margin: 160px auto 20px auto;
+    overflow: hidden;
+}
+.content .column-list {
+    float: left;
+    width: 15%;
+    background-color: #0471bc;
+}
+.content .column-list table.column-list-table {
+    width: 100%;
+}
+.content .column-list table.column-list-table td {
+    text-align: center;
+}
+.content .column-list a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+}
+.content .column-list a:hover {
+    background-color: #581b6d;
+}
+.content .column-list a.column-list-tableChild {
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #3f9cd0;
+}
+.content .column-list a.column-list-tableChild:hover {
+    background-color: #581b6d;
+}
+.content .article-list {
+    float: right;
+    width: 80%;
+}
+.content .article-list .current-location a,  .content .article-list .current-location span {
+    font-size: 16px;
+    line-height: 40px;
+    display: inline-block;
+}
+.content .article-list table.article-list-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content .article-list table.article-list-table .columnStyle {
+    font-size: 14px;
+    line-height: 30px;
+}
+.content .article-title {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.content .article-info {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content .article-detail {
+    font-size: 16px;
+}

@@ -1,273 +1,175 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block; }
-
+@charset "UTF-8";
 body {
-	line-height: 1; }
-
-ol,
-ul {
-	list-style: none; }
-
-blockquote,
-q {
-	quotes: none; }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none; }
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0; }
-
-a {
-	text-decoration: none; }
-
-.left {
-	float: left; }
-
-.right {
-	float: right; }
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0; }
-
-.clearfix {
-	zoom: 1; }
-
-body {
-	font-family: "Î¢ÈíÑÅºÚ"; }
-
+	font-family: 'Microsoft YaHei';
+}
+::-webkit-input-placeholder {
+	color: #999;
+}
+:-moz-placeholder {
+	color: #999;
+}
+::-moz-placeholder {
+	color: #999;
+}
+:-ms-input-placeholder {
+	color: #999;
+}
 .w1400 {
 	width: 1400px;
 	margin: 0 auto;
-	overflow: hidden; }
+	overflow: hidden;
+}
 
 .top {
+	width: 100%;
+	min-width: 1400px;
 	height: 35px;
-	background: #017ded;
 	line-height: 35px;
-	min-width: 1400px; }
+	background: #017ded;
+}
 
-.top-le {
+.top a.top-le {
 	float: left;
+	height: 35px;
+	line-height: 35px;
 	font-size: 14px;
 	color: #fff;
-	margin-left: 78px; }
-
-.top-ri {
-	float: right; }
-
-.top-ri a {
-	float: left;
+	margin-left: 78px;
+}
+.top a.top-le:hover {
 	color: #fff;
-	font-size: 14px; }
+}
 
-.top-ri span {
+.top .top-ri {
+	float: right;
+	height: 35px;
+}
+
+.top .top-ri a {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.top .top-ri a:hover {
+	color: #fff;
+}
+
+.top .top-ri span {
 	float: left;
 	width: 1px;
-	height: 7px;
+	height: 5px;
 	background: url(../img/line.png) no-repeat;
-	margin: 15px 15px; }
+	margin: 15px 15px;
+}
 
-.top-ri div {
+.top .top-ri form {
 	float: left;
 	width: 154px;
 	height: 28px;
+	margin: 3px 0 0 22px;
 	background: url(../img/inpbg.png) no-repeat;
 	overflow: hidden;
-	margin: 3px 8px 0 22px; }
+}
 
-.top-ri div input[name=searchTitle] {
-	margin-left: 6px;
-	float: left;
+.top .top-ri form input[name=searchTitle] {
+	-webkit-appearance: none;
 	border: none;
+	outline: none;
+	background: none;
+	float: left;
+	margin-left: 6px;
 	width: 120px;
 	height: 28px;
-	background: none;
-	outline: none;
 	text-indent: 10px;
 	font-size: 14px;
-	font-family: "Î¢ÈíÑÅºÚ"; }
+}
 
-.top-ri div input[name=go] {
+.top .top-ri form input[name=go] {
 	-webkit-appearance: none;
-	padding: 0;
 	border: none;
-	font-size: 0;
+	outline: none;
+	background: url(../img/sousuo.png) center center no-repeat;
 	float: left;
 	width: 12px;
 	height: 28px;
-	background: url(../img/sousuo.png) center center no-repeat;
-	cursor: pointer; }
+	font-size: 0;
+	cursor: pointer;
+}
 
 .flag {
-	position: relative; }
+	width: 100%;
+	min-width: 1400px;
+	position: relative;
+}
 
 /*nav----start*/
 .nav {
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	min-width: 1400px;
-	z-index: 99999999999; }
+	z-index: 9;
+}
 
 .now {
 	width: 100%;
-	min-width: 1400px;
 	background: #e6f3fe;
 	opacity: 0.9;
 	-moz-opacity: 0.9;
 	filter: alpha(opacity=90);
-	height: 86px; }
+	height: 86px;
+}
 
-.logo1 {
+.now .left .logo1 {
 	float: left;
-	margin: 15px 14px 0 3px; }
+	margin: 15px 14px 0 3px;
+}
 
-.logo2 {
+.now .left .logo2 {
 	float: left;
-	margin-top: 18px; }
+	margin-top: 18px;
+}
 
-.menu {
+.now .menu {
 	float: right;
-	line-height: 86px; }
+	height: 86px;
+	line-height: 86px;
+}
 
-.menu li {
+.now .menu li {
 	float: left;
 	font-size: 22px;
 	margin-right: 26px;
-	position: relative; }
+	position: relative;
+}
 
-.menu li a {
-	color: #006eb6; }
+.now .menu li a {
+	color: #006eb6;
+}
 
-.menu li a:hover {
-	color: #003e66; }
+.now .menu li a:hover {
+	color: #003e66;
+}
 
-.menu li a.se {
-	color: #003e66; }
+.now .menu li a.se {
+	color: #003e66;
+}
 
-.menu li i {
+.now .menu li i {
+	display: none;
 	position: absolute;
 	left: 50%;
 	margin-left: -7px;
 	bottom: 2px;
-	display: block;
 	width: 13px;
 	height: 7px;
 	background: url(../img/jiao.png) no-repeat;
-	display: none; }
+}
 
 .menu2 {
+	display: none;
 	height: 60px;
 	background: #0471bc;
 	opacity: 0.9;
@@ -275,22 +177,23 @@ body {
 	filter: alpha(opacity=90);
 	text-align: center;
 	overflow: hidden;
-	display: none; }
+}
 
-.erji {
+.menu2 .erji {
 	float: left;
 	height: 60px; }
 
-.erji a {
+.menu2 .erji a {
 	display: inline-block;
 	font-size: 16px;
 	color: #fff;
-	padding: 0 2px;
-	margin: 0 5px;
-	line-height: 60px; }
+	margin: 0 10px;
+	line-height: 58px;
+}
 
-.erji a:hover {
-	border-bottom: 2px solid #fff; }
+.menu2 .erji a:hover {
+	border-bottom: 2px solid #fff;
+}
 
 /*banner--start*/
 .banner {
@@ -394,16 +297,23 @@ body {
 
 .foot .foot_link a {
 	font-size: 15px;
-	color: #ffffff; }
+	color: #fff;
+	line-height: 18px;
+	display: inline-block;
+}
+.foot .foot_link a:hover {
+	color: #fff;
+}
 
 .foot .foot_link span {
 	float: left;
-	height: 15px;
-	background-color: #ffffff;
-	width: 1px; }
+	height: 18px;
+	width: 1px;
+	background-color: #fff;
+}
 
 .foot .foot_link div {
-	color: #ffffff;
+	color: #fff;
 	font-size: 15px;
 	margin-top: 49px;
 	margin-left: 55px; }
@@ -414,11 +324,11 @@ body {
 	margin-left: 135px; }
 
 .foot .foot_conn p {
-	color: #ffffff; }
+	color: #fff; }
 
 .foot .foot_conn .conn {
 	font-size: 22px;
-	color: #ffffff; }
+	color: #fff; }
 
 .foot .foot_conn .addr {
 	margin-top: 16px;
@@ -438,7 +348,7 @@ body {
 	margin-left: 46px; }
 
 .foot .foot_conn2 p {
-	color: #ffffff; }
+	color: #fff; }
 
 .foot .foot_conn2 .code {
 	font-size: 14px; }

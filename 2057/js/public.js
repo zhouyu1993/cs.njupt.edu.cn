@@ -29,7 +29,36 @@ $(function () {
 			});
 		}
 	} catch (e) {
-		console.log(e);
+		var x = setInterval(function () {
+			if (zNodes1 && zNodes1.length) {
+				$('.menu').html('');
+				var html = '',
+					html2 = '';
+				for (var i = 0; i < zNodes1.length; i++) {
+					if (!zNodes1[i].pId) {
+						html += '<li value=' + i + '><a href="' + zNodes1[i].link + '">' + zNodes1[i].name + '</a><i></i></li>';
+						html2 += '<li><span></span></li><li><a href="' + zNodes1[i].link + '">' + zNodes1[i].name + '</a><i></i></li>';
+					}
+				}
+				$('.menu').append(html);
+				$('.foot .foot_link ul').append(html2);
+				$('.menu').on('hover', 'li', function () {
+					$('.menu2 .w1400 .erji').html('');
+					$('.menu i').hide();
+					$(this).find('i').show();
+					var html = '',
+						i = $(this).attr('value');
+					i += 1;
+					while (i < zNodes1.length && zNodes1[i].pId) {
+						html += '<a href="' + zNodes1[i].link + '">' + zNodes1[i].name + '</a>';
+						i++;
+					}
+					$('.menu2 .w1400 .erji').append(html);
+					$('.menu2').show();
+				});
+				clearInterval(x);
+			}
+		}, 1000)
 	}
 	// ÆµµÀ3-Í¼Æ¬¹ö¶¯
 	var table3_img = $('.table3 a img');
